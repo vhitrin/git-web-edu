@@ -1,0 +1,49 @@
+body {
+	background: url("../images/back_.jpg") no-repeat center;
+}
+
+#container {
+	/*background: url("../images/App_Store_Badge.png") no-repeat center top;*/
+	background-color: black;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 100px;
+	width: 600px;
+	height: 800px;
+	color: lightgrey;
+}
+
+#alone_image {
+	margin: 10px;
+}
+
+h3 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#countdown_dashboard {
+	margin: auto;
+	width: 500px;
+}
+
+.dash {
+	float: left;
+	width: 90px;
+	margin-left: 5px;
+	text-align: center;
+	background: url("../images/dash2.png") no-repeat center top;
+	border: solid black 2px;
+}
+
+.digit {
+	width: 45px;
+	height: 70px;
+	float: left;
+	font-size: 55px;
+	color: black;
+}
+
+.dash_title {
+	
+}
