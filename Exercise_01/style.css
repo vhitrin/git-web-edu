@@ -1,0 +1,51 @@
+.content {
+	width: 30%;
+	margin: auto;
+}
+
+.header {
+	 text-align: center;
+}
+
+.label {
+	text-align: right;
+}
+
+.right {
+	text-align: right;
+	padding-right: 4px;
+}
+
+.required {
+	color: red;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+select {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.vertical-align-top {
+	vertical-align: top;
+}
+
+#username {
+	width: 50px;
+	background-color: yellow;
+}
