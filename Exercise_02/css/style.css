@@ -1,5 +1,6 @@
 body {
 	background: url("../images/back_.jpg") no-repeat center;
+	background-size: 110%;
 }
 
 #container {
@@ -9,8 +10,9 @@ body {
 	margin: auto;
 	margin-top: 100px;
 	width: 600px;
-	height: 800px;
+	height: 510px;
 	color: lightgrey;
+	opacity: 0.7;
 }
 
 #alone_image {
@@ -19,7 +21,7 @@ body {
 
 h3 {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 #countdown_dashboard {
@@ -46,4 +48,22 @@ h3 {
 
 .dash_title {
 	
+}
+
+.table {
+	clear: both;
+	margin: auto;
+	margin-top: 160px;
+	display: table;
+}
+
+.row {
+	display: table-row;
+}
+
+.cell {
+	color: red;
+	display: table-cell;
+	padding-top: 5px;
+	padding-left: 20px;
 }
