@@ -34,6 +34,7 @@
     display: table-cell;
     padding-bottom: 2px;
     padding-top: 2px;
+
 }
 
 select {
@@ -48,4 +49,50 @@ select {
 #username {
 	width: 50px;
 	background-color: yellow;
+}
+
+input:valid + span:after {
+	content: url(Images/OK.png); 
+    padding-left: 5px;
+    vertical-align: center;
+}
+
+input:invalid + span:after {
+	content: url(Images/NOK.png); 
+    padding-left: 5px;
+    vertical-align: center;
+}
+
+li {
+    width: 30px;
+    height: 30px;    
+    display: inline-block;
+    text-align: center; 
+    font-size: 1.5em;
+    padding: 5px;
+    background: #dfe6e1;
+    margin-right: -4px;
+    border-bottom: 5px solid silver;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:nth-child(2) {
+     background: #CCCCCC;
+     border-color: #393939;
+     color: black;
+}
+
+li:hover {
+    background: #CCCCCC;
+    border-color: #393939;
+    cursor: pointer;
+    color: black;
+}
+
+ul {
+	margin: auto;
 }

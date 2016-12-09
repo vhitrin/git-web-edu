@@ -5,8 +5,19 @@
 	<title>Форма регистрации блочная верстка</title>
 </head>
 <body>
-
 	<div class="content">
+		<ul>
+	        <li>&nbsp;</li>
+	        <li><a href="">1</a></li>
+	        <li><a href="">2</a></li>
+	        <li><a href="">3</a></li>
+	        <li><a href="">4</a></li>
+	        <li><a href="">5</a></li>
+	        <li><a href="">&gt;</a></li>
+	        <li>&nbsp;</li>
+	        <li>&nbsp;</li>
+	        <li>&nbsp;</li>
+	    </ul>
 		<div class="header">
 			<b>Регистрация нового пользователя</b><br>
 			Обязательные поля выделены красным цветом<br>
@@ -15,19 +26,19 @@
 		<div class="table">
 			<div class="row">
 				<div class="cell required right"><label for="username">Ник (псевдоним):</label></div>
-				<div class="cell"><input type="text" id="username"></div>
+				<div class="cell"><input type="text" id="username" required><span></span></div>
 			</div>
 			<div class="row">
 				<div class="cell required right"><label for="email">E-mail:</label></div>
-				<div class="cell"><input type="text" id="email"></div>
+				<div class="cell"><input type="text" id="email" required><span></span></div>
 			</div>
 			<div class="row">
 				<div class="cell required right"><label for="password">Пароль (не менее 6 сим.):</label></div>
-				<div class="cell"><input type="text" id="password"></div>
+				<div class="cell"><input type="text" id="password" required><span></span></div>
 			</div>
 			<div class="row">
 				<div class="cell required right"><label for="password_confirm">Подтвердите пароль:</label></div>
-				<div class="cell"><input type="text" id="password_confirm"></div>
+				<div class="cell"><input type="text" id="password_confirm" required><span></span></div>
 			</div>
 			<div class="row">
 				<div class="cell"><hr/></div>
